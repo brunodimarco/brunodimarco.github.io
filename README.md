@@ -36,6 +36,7 @@ AI-powered platform for General Practitioners
 ---
 
 ### 🧬 Alzheimer Progression Predictor  
+[📄 Paper in preparation – stay tuned for publication]
 Applied machine learning thesis focused on classifying Alzheimer's disease patients by cognitive decline velocity and forecasting clinical phenotype
 
 - Ensemble-based ML approach: SVM, Logistic Regression, Random Forest, XGBoost  
@@ -45,6 +46,7 @@ Applied machine learning thesis focused on classifying Alzheimer's disease patie
 - External validation on real-world cohort from the University of Palermo  
 
 > _“From patient data to predictive insight. Supporting longitudinal care with AI.”_
+
 
 ---
 

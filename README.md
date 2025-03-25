@@ -83,7 +83,7 @@ Applied machine learning thesis focused on classifying Alzheimer's disease patie
 
 ## 📫 Reach Me
 
-- 🔗 [LinkedIn](https://linkedin.com/in/bruno-di-marco)  
+- 🔗 [LinkedIn](https://www.linkedin.com/in/bruno-di-marco-b1bb4a1a9/)
 - 📧 bruno.dimarco@outlook.com  
 - 🧠 Open to roles combining medicine, AI, and digital product development
 

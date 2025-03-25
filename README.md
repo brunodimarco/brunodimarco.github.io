@@ -26,17 +26,23 @@ I build AI tools that simplify diagnostics, accelerate decision-making, and actu
 ## 🚀 Featured Projects
 
 ### 🧠 MedBase  
-AI-powered platform for General Practitioners  
-- Diagnostic reasoning via structured clinical JSON logic  
-- Probabilistic AI decision trees with confidence scoring  
-- Supabase backend, React + Bootstrap frontend  
-- Dockerized & deploy-ready on VPS  
-> _“Built for doctors, not just developers.”_
+🚧 *Closed source – currently under development*
+
+AI-powered clinical platform designed for General Practitioners to streamline differential diagnosis and patient management.
+
+- Dynamic clinical reasoning engine based on structured JSON logic  
+- Probabilistic decision trees with adjustable confidence thresholds  
+- Modular frontend (React + Bootstrap), Supabase backend  
+- Dockerized architecture for VPS deployment and scaling  
+- Includes patient timeline view, fast search and customizable templates  
+
+> _“Built for doctors, not dashboards. Clinical UX meets intelligent automation.”_
+
 
 ---
 
 ### 🧬 Alzheimer Progression Predictor  
-[📄 Paper in preparation – stay tuned for publication]
+[🔗 GitHub Repo][📄 Paper in preparation – stay tuned for publication]
 
 Applied machine learning thesis focused on classifying Alzheimer's disease patients by cognitive decline velocity and forecasting clinical phenotype
 

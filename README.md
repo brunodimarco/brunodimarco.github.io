@@ -1,4 +1,4 @@
-# 👨‍⚕️ Bruno Di Marco | Medical Doctor & AI Developer
+# 👨‍⚕️ Bruno Di Marco | Medical Doctor & Clinical AI Developer
 
 ## 🚀 About Me
 Medical doctor turned tech innovator. Building bridges between healthcare and cutting-edge technology.
@@ -10,25 +10,32 @@ Medical doctor turned tech innovator. Building bridges between healthcare and cu
 ![Docker](https://img.shields.io/badge/-Docker-black?style=flat-square&logo=docker)
 ![Machine Learning](https://img.shields.io/badge/-Machine%20Learning-black?style=flat-square)
 
-## 🔬 Featured Projects
+## 🚀 Key Projects
 
-### 1. CliniKit 🩺
+### 1. MedBase 🩺 
 AI-powered clinical decision support webapp
 - React & Supabase
 - Machine learning diagnostic reasoning
 - Mobile-first design
 
 ### 2. Alzheimer Progression Predictor 🧠
-Predictive models for cognitive decline
-- 80%+ accuracy
-- Ensemble machine learning techniques
+ML ensamble model approach for cognitive decline prediction
+- 80%+ accuracy at 12 months
 
 ## 🎓 Background
 - Medical Doctor (110/110 cum laude)
+- Thesis: Machine Learning in Alzheimer's Progression Analysis: ensemble machine learning techniques
 - Self-taught AI & Software Developer
 
-## 💌 Connect
+## 📫 Contact
 - LinkedIn: [bruno-di-marco](https://linkedin.com/in/bruno-di-marco)
 - Email: bruno.dimarco@outlook.com
+
+## 🌟 Professional Highlights
+- SISM Palermo President (2023-2024)
+- Medical Doctor with advanced AI and development skills
+- Specializing in healthcare technology innovation
+
+---
 
 *Turning medical complexity into technological simplicity*

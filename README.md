@@ -1,4 +1,4 @@
-# 👨‍⚕️ Bruno Di Marco | Medical Doctor • Clinical AI Developer • Techno-Renaissance Man
+# 👨‍⚕️ Bruno Di Marco | Medical Doctor • Clinical AI Developer
 
 ## 🧠 About Me
 I'm a medical doctor with a keyboard in one hand and clinical reasoning in the other.  
@@ -36,7 +36,7 @@ AI-powered platform for General Practitioners
 ---
 
 ### 🧬 Alzheimer Progression Predictor  
-Tesi di laurea con ML applicato alla previsione del declino cognitivo  
+Applied machine learning thesis focused on forecasting cognitive deterioration in Alzheimer's disease
 - Ensemble model (SVM, Random Forest, voting classifier)  
 - Accuracy >80% at 12-month prediction horizon  
 - Dataset: ADNI, biomarkers (PTAU, NFL), MMSE  

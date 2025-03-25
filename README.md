@@ -80,3 +80,8 @@ Applied machine learning thesis focused on classifying Alzheimer's disease patie
 
 ### 🧃 Personal Motto
 > *Turning medical complexity into technological simplicity — one project at a time.*
+
+> ⚠️ **Why I build clinical AI**
+> After working as a doctor, I realized that most digital tools are made for administrators, not clinicians.
+> My goal is to build intelligent systems that actually improve decision-making at the bedside.
+

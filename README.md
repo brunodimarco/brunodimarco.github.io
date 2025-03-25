@@ -35,12 +35,19 @@ AI-powered platform for General Practitioners
 
 ---
 
+
+
 ### 🧬 Alzheimer Progression Predictor  
-Applied machine learning thesis focused on forecasting cognitive deterioration in Alzheimer's disease
-- Ensemble model (SVM, Random Forest, voting classifier)  
-- Accuracy >80% at 12-month prediction horizon  
-- Dataset: ADNI, biomarkers (PTAU, NFL), MMSE  
-> _“From patient data to predictive insight.”_
+Applied machine learning thesis focused on classifying Alzheimer's disease patients by cognitive decline rate and forecasting a clinical phenotype
+
+- ML Ensemble model classifiers approach: Support Vector Machines (SVM), Logistic Regression, Random Forest, XGBoost
+- Developed classification pipeline to identify fast vs slow decliners based on clinical and CSF biomarkers  
+- Accuracy: 77% at 6-month horizon, 81% at 12 months  
+- Trained on the ADNI dataset (MMSE, age, sex, Aβ42, p-Tau181, t-Tau, APOE ε4)  
+- Validated on an independent dataset from the University of Palermo using matching biological and clinical markers  
+
+> _“From patient data to predictive insight. Supporting longitudinal care with AI.”_
+
 
 ---
 

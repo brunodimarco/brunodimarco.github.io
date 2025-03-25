@@ -48,6 +48,11 @@ Applied machine learning thesis focused on classifying Alzheimer's disease patie
 
 > _“From patient data to predictive insight. Supporting longitudinal care with AI.”_
 
+> ## 🧠 Methodological Insight
+- Data preprocessing with scikit-learn pipelines
+- Model tuning with GridSearchCV and cross-validation
+- Clinical label definition via MMSE deltas and biomarker thresholds
+- External validation with independent cohort
 
 ---
 

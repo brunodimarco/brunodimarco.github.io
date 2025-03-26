@@ -16,19 +16,6 @@ export default function App() {
   const t = (key) => translations[lang][key] || key;
 
   useEffect(() => {
-    const hash = window.location.hash;
-    if (hash) {
-      const id = hash.replace("#", "");
-      const el = document.getElementById(id);
-      if (el) {
-        setTimeout(() => {
-          el.scrollIntoView({ behavior: "smooth" });
-        }, 300); // aspettiamo che React abbia montato tutto
-      }
-    }
-  }, []);
-
-  useEffect(() => {
     document.documentElement.classList.toggle("dark", theme === "dark");
     localStorage.setItem("theme", theme);
   }, [theme]);

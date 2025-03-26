@@ -21,13 +21,13 @@ export default function Navbar({ lang, toggleLang, theme, toggleTheme }) {
         <div className="flex items-center gap-3">
           <a
             href="#projects"
-            className="text-sm text-gray-700 dark:text-gray-300 hover:text-fuchsia-500"
+            className="hidden sm:inline text-sm text-gray-700 dark:text-gray-300 hover:text-fuchsia-500"
           >
             {t("projectsNav")}
           </a>
           <a
             href="#contact"
-            className="text-sm text-gray-700 dark:text-gray-300 hover:text-fuchsia-500"
+            className="hidden sm:inline text-sm text-gray-700 dark:text-gray-300 hover:text-fuchsia-500"
           >
             {t("contactNav")}
           </a>

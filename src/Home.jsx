@@ -52,11 +52,11 @@ export default function App() {
       <Hero theme={theme} />
 
       <ScrollSection id="about" title={t("aboutMe")}>
-        <p>{t("aboutText")}</p>
-        <ul className="list-disc list-inside text-gray-500 dark:text-gray-300 mt-4">
-          <li>{t("aboutBullet1")}</li>
-          <li>{t("aboutBullet2")}</li>
-          <li>{t("aboutBullet3")}</li>
+        <p className="text-2xl">{t("aboutText")}</p>
+        <ul className="list-none  list-inside text-xl text-gray-500 dark:text-gray-300 mt-4">
+          <li className="ms-4 mt-5">{t("aboutBullet1")}</li>
+          <li className="ms-4 mt-4">{t("aboutBullet2")}</li>
+          <li className="ms-4 mt-4">{t("aboutBullet3")}</li>
         </ul>
       </ScrollSection>
 
@@ -65,19 +65,19 @@ export default function App() {
       </ScrollSection>
 
       <ScrollSection id="education" title={t("education")}>
-        <p className="font-medium mb-2">{t("eduTitle")}</p>
-        <p className="text-sm italic">110/110 cum laude</p>
-        <p className="text-sm mt-2 text-gray-500 dark:text-gray-400">
+        <p className="text-2xl mb-2">{t("eduTitle")}</p>
+        <p className="text-xl italic">110/110 cum laude</p>
+        <p className="text-lg mt-2 text-gray-500 dark:text-gray-400">
           {t("eduThesis")}
         </p>
       </ScrollSection>
 
       <ScrollSection id="roles" title={t("roles")}>
-        <ul className="list-disc list-inside space-y-1 text-gray-500 dark:text-gray-300">
-          <li>{t("roles1")}</li>
-          <li>{t("roles2")}</li>
-          <li>{t("roles3")}</li>
-          <li>{t("roles4")}</li>
+        <ul className="list-none text-xl space-y-4 text-gray-500 dark:text-gray-300">
+          <li className="ms-4 mt-5">{t("roles1")}</li>
+          <li className="ms-4 mt-5">{t("roles2")}</li>
+          <li className="ms-4 mt-5">{t("roles3")}</li>
+          <li className="ms-4 mt-5">{t("roles4")}</li>
         </ul>
       </ScrollSection>
 

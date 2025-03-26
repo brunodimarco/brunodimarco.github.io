@@ -20,8 +20,8 @@ export default function HeroNeurons({ theme }) {
     window.addEventListener("resize", resize);
     resize();
 
-    const NEURON_COUNT = 250;
-    const CONNECT_DIST = 120;
+    const NEURON_COUNT = 200;
+    const CONNECT_DIST = 100;
     const neurons = [];
     const edges = new Map();
     const graph = Array.from({ length: NEURON_COUNT }, () => new Set());

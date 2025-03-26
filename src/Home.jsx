@@ -21,17 +21,20 @@ export default function App() {
   }, [theme]);
 
   useEffect(() => {
-    const hash = window.location.hash;
-    if (hash) {
-      const id = hash.replace("#", "");
+    const handleHashChange = () => {
+      const id = window.location.hash.replace("#", "");
       const el = document.getElementById(id);
       if (el) {
-        setTimeout(() => {
-          el.scrollIntoView({ behavior: "smooth" });
-        }, 300); // attesa perché React deve montare tutto
+        el.scrollIntoView({ behavior: "smooth" });
       }
-    }
+    };
+
+    handleHashChange(); // scrolla alla prima apertura
+    window.addEventListener("hashchange", handleHashChange);
+
+    return () => window.removeEventListener("hashchange", handleHashChange);
   }, []);
+
   const toggleLang = () => {
     const newLang = lang === "en" ? "it" : "en";
     setLang(newLang);

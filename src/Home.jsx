@@ -49,7 +49,7 @@ export default function App() {
         theme={theme}
         toggleTheme={(currentTheme) => setTheme(toggleTheme(currentTheme))}
       />
-      <Hero theme={theme} id="hero" />
+      <Hero theme={theme} />
 
       <ScrollSection id="about" title={t("aboutMe")}>
         <p>{t("aboutText")}</p>

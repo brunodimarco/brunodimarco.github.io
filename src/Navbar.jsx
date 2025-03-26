@@ -13,7 +13,7 @@ export default function Navbar({ lang, toggleLang, theme, toggleTheme }) {
     >
       <div className="max-w-6xl mx-auto px-6 py-3 flex items-center justify-between">
         <a
-          href="#hero"
+          href="/"
           className="font-bold text-lg tracking-tight text-black dark:text-white hover:opacity-80 transition"
         >
           Bruno Di Marco

@@ -20,6 +20,18 @@ export default function App() {
     localStorage.setItem("theme", theme);
   }, [theme]);
 
+  useEffect(() => {
+    const hash = window.location.hash;
+    if (hash) {
+      const id = hash.replace("#", "");
+      const el = document.getElementById(id);
+      if (el) {
+        setTimeout(() => {
+          el.scrollIntoView({ behavior: "smooth" });
+        }, 300); // attesa perché React deve montare tutto
+      }
+    }
+  }, []);
   const toggleLang = () => {
     const newLang = lang === "en" ? "it" : "en";
     setLang(newLang);
